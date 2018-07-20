@@ -22,7 +22,6 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 </project>
