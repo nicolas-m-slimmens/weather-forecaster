@@ -1,0 +1,10 @@
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\configs\PersistenceConfiguration.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\exceptions\BadRequestException.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\utils\Log.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\ApplicationInitializer.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\configs\WebConfiguration.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\utils\LogInjector.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\controllers\WeatherPredictionsController.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\configs\ApplicationConfiguration.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\exceptions\NotFoundException.java
+C:\Users\Nicolas Martin\Documents\workspace-sts-3.9.2.RELEASE\weather-forecaster\weather-forecaster-service\src\main\java\org\slimmens\weather\forecaster\service\jobs\DataInitializationJob.java
