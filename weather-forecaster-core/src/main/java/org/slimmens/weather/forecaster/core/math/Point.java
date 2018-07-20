@@ -65,7 +65,14 @@ public class Point {
 		this.y = y;
 
 		this.distance = BigDecimalMath.sqrt(x.pow(2).add(y.pow(2)), MathConstants.DEFAULT_CONTEXT);
-		this.angle = null; // TODO
+
+		if (this.distance.compareTo(BigDecimal.ZERO) == 0) {
+			this.angle = new Angle();
+		} else if (y.compareTo(BigDecimal.ZERO) >= 0) {
+			this.angle = new Angle(Math.acos(y.doubleValue() / distance.doubleValue()));
+		} else {
+			this.angle = new Angle(Math.acos(-y.doubleValue() / distance.doubleValue()));
+		}
 	}
 
 	/**

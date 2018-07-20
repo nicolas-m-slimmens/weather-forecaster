@@ -24,6 +24,15 @@ public class Angle implements Comparable<Angle> {
 		this.minutes = minutes;
 		this.seconds = seconds;
 	}
+	
+	public Angle(double radians) {
+		super();
+		
+		double deegres = Math.toDegrees(radians);
+		this.degrees = (int) deegres;
+		this.minutes = (int) (deegres % this.degrees) * 60;
+		this.seconds = new BigDecimal(((deegres % this.degrees) % this.minutes) * 60);
+	}
 
 	public Angle(Angle angle) {
 		this(angle.getDegrees(), angle.getMinutes(), angle.getSeconds());
